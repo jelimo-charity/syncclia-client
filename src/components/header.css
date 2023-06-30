@@ -1,0 +1,9 @@
+.navlinks{
+    padding: 20px;
+}
+.link{
+    padding: 10px;
+    color: green;
+    font-size: 1.5rem;
+    text-decoration: none;
+}

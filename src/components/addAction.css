@@ -1,0 +1,58 @@
+.actionsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  
+  .actionsForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .actionsForm h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .actionsForm input[type="text"],
+  .actionsForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .actionsForm input[type="file"] {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .actionsForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #31a24c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .actionsForm input[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  #gogreenImg {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  

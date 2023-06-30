@@ -1,0 +1,28 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userImage-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.userImage{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;  
+}
+.userDetails h2{
+    font-size: 2.5rem;
+    color: green;
+
+}
+.userDetails p{
+    font-size: 1.5rem;
+    padding: 10px;
+    
+
+}

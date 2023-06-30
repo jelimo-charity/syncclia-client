@@ -1,0 +1,47 @@
+.updateForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .updateForm .form input,
+  .updateForm .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .updateForm .btnUpdates {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .updateForm .btnUpdates button {
+    padding: 10px 20px;
+    background-color: #31a24c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .updateForm .btnUpdates button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .updateForm {
+      width: 90%;
+    }
+  }
+  

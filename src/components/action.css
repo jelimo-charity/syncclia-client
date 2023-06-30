@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.action-box{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    
+    /* justify-content: center; */
+}

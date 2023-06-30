@@ -1,0 +1,63 @@
+.actionListWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .actionCard {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .actionCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .title {
+    color: green;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .reflection {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .cardButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  #teamImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .deleteBtn {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .editBtn {
+    color: green;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  
+  @media only screen and (max-width: 768px) {
+    .actionCard {
+      width: 90%;
+    }
+  }
+  

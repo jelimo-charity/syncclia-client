@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .aboutContainer {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .title h1 {
+    font-size: 4rem;
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .headline {
+    background-color: #fff;
+    width: 60%;
+    height: 250px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .headline h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .headline p {
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .whatWeDo {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .whatWeDo h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .whatWeDo p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  

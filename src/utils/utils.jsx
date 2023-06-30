@@ -1,0 +1,1 @@
+export const apiDomain = 'https://syncclia.azurewebsites.net/';
