@@ -1,4 +1,4 @@
-import Action from '../components/action'
+import Action from '../components/Action'
 
 function Actions() {
   return (
